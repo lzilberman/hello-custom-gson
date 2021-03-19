@@ -12,6 +12,7 @@ import com.gson.serde.model.Student;
 public class AppRunner implements CommandLineRunner {
 
 	@Override
+	@SuppressWarnings("resource")
 	public void run(String... args) throws Exception {
 		
 		// Creating a set object 
